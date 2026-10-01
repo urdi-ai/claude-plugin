@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "urdi": {
+      "type": "http",
+      "url": "https://mcp.urdi.ai/"
+    }
+  }
+}

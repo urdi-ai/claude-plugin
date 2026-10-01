@@ -1,0 +1,12 @@
+{
+  "name": "urdi",
+  "displayName": "Urdi",
+  "version": "0.1.0",
+  "description": "Find and use the apps, tools, tasks, and skills available to your Urdi account.",
+  "author": {
+    "name": "Urdi",
+    "email": "support@urdi.ai",
+    "url": "https://urdi.ai/"
+  },
+  "homepage": "https://urdi.ai/"
+}
