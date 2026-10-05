@@ -9,5 +9,9 @@
     "url": "https://urdi.ai/"
   },
   "homepage": "https://urdi.ai/",
-  "privacyPolicyUrl": "https://urdi.ai/privacy/"
+  "privacyPolicyUrl": "https://urdi.ai/privacy/",
+  "repository": "https://github.com/urdi-ai/claude-plugin",
+  "supportUrl": "https://urdi.ai/support/",
+  "documentationUrl": "https://urdi.ai/docs/",
+  "termsOfServiceUrl": "https://urdi.ai/terms/"
 }
