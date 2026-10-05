@@ -7,7 +7,7 @@ Use the Urdi connector for requests about the user's available apps and workspac
 
 1. If the connector is not connected in claude.ai or Cowork, ask the user to connect Urdi from this plugin's Connectors tab and sign in. In Claude Code, check `/mcp` for the connection state.
 2. Use the connector's discovery results and server instructions to select the right pod and capability. When available, `search` finds relevant apps, tools, and skills from the user's request; `get_pod` and `get_app` provide more detail. If several results could fit, ask which one the user means.
-3. Reuse the exact resource returned by discovery. For a tool, inspect its signature or `get_tool` contract if needed, then use `call_tool` with its resource and input. For a long-running app task, use `start_task_run` and poll its returned run resource with `get_task_run` when available.
+3. Reuse the exact resource returned by discovery. For a tool, inspect its signature or `get_tool` contract if needed, then use `read_tool` when `readOnly` is true and `write_tool` otherwise, passing its resource and input. When `readOnlyFromInput` is true, use the selected operation's `readOnly` from operation discovery or its contract instead of the tool's default (for example, OpenAPI `search_operations`/`get_operation`). For a long-running app task, use `start_task_run` and poll its returned run resource with `get_task_run` when available.
 4. Report the useful result or the run status in plain language. If the workspace has no matching capability, say so.
 
 Follow the connector's live instructions for permissions, resource formats, and task wait states; those reflect the capabilities available in this session.
