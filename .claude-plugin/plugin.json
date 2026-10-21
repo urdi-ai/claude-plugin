@@ -1,0 +1,19 @@
+{
+  "name": "urdi",
+  "displayName": "Urdi",
+  "version": "0.1.2",
+  "description": "Find and use the apps, tools, tasks, and skills available to your Urdi account.",
+  "author": {
+    "name": "Urdi",
+    "email": "support@urdi.ai",
+    "url": "https://urdi.ai/"
+  },
+  "homepage": "https://urdi.ai/",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": ["urdi", "workspace", "apps", "tools", "tasks", "skills"],
+  "privacyPolicyUrl": "https://urdi.ai/privacy/",
+  "repository": "https://github.com/urdi-ai/claude-plugin",
+  "supportUrl": "https://urdi.ai/support/",
+  "documentationUrl": "https://urdi.ai/docs/",
+  "termsOfServiceUrl": "https://urdi.ai/terms/"
+}
